@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+.table{
+    overflow: hidden;
+    background-color: aqua;
+    position: fixed;
+    width: 100%;
+}
+.table a{
+    float: left;
+    display: block;
+    color: rgb(224, 59, 59);
+    text-align: center;
+    padding: 14px 16px; /* Tao khoang trong xung quan phan tu*/
+    text-decoration: none; /*Xoa dau gach chan duoi noi dung*/
+    font-size: 16px;
+}
+.table a:hover{
+    background-color: rgb(94, 128, 221);
+    color: cornsilk;
+}
